@@ -1,0 +1,60 @@
+.welcome-container{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+    background-image: linear-gradient(rgba(255,255,255,0.6), rgba(0,0,0,0.4)), url("../assets/back.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.welcome-block{
+    max-width: 600px;
+}
+
+.welcome-block h1{
+    font-size: 2.5rem;
+    color: hsl(300, 100%, 25%);
+    margin-bottom: 12px;
+}
+
+.welcome-block p{
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 24px;
+    line-height: 1.6;
+}
+
+.welcome-block button{
+    padding: 14px 32px;
+    border: none;
+    border-radius: 6px;
+    background-color: hsl(300, 100%, 60%);
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.welcome-block button:hover{
+    background-color: hsl(300, 100%, 45%);
+}
+
+@media (max-width: 600px){
+    .welcome-container{
+        min-height: 60vh;
+        padding: 30px 16px;
+    }
+    .welcome-block h1{
+        font-size: 1.8rem;
+    }
+    .welcome-block p{
+        font-size: 1rem;
+    }
+}
