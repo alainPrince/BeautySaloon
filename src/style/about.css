@@ -54,7 +54,7 @@
     color: #555;
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
     .about-container{
         padding: 12px;
     }

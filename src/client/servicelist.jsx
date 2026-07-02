@@ -1,7 +1,7 @@
 // src/data/services.js
 import Facial from '../assets/facial.jpg';
 import Hair from '../assets/hair.jpg';
-import Manicure from '../assets/manicure.jpeg';
+import Manicure from '../assets/pedicure.jpg';
 import Bridal from '../assets/bridal.jpg';
 import Message from '../assets/massage.jpg';
 import hairStyle from '../assets/hairstyle.jpg';

@@ -86,7 +86,7 @@
     background-color: hsl(300, 100%, 45%);
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
     .service-container{
         padding: 12px;
     }

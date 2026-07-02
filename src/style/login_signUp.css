@@ -20,7 +20,7 @@ body{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin: 40px auto;
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
     padding: 20px;
     background-color: white;
 }
@@ -85,14 +85,22 @@ body{
 
 .container .block .error{
     color: red;
-    font-family: cursive;
+    /* font-family: cursive; */
     font-size: small;
     font-style: italic;
 }
 
 .container .block .success{
     color: #00ab00;
-    font-family: cursive;
+    /* font-family: cursive; */
     font-size: small;
     font-style: italic;
+}
+@media (max-width: 800px){
+ .container{
+    padding: 20px;
+ }
+.container .block{
+    max-width: 100%;
+}
 }
